@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инструмент за визуализиране на коси и прически</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Визуализатор на коси и прически</h1>
+        <input type="file" id="upload-image" accept="image/*" />
+        <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="hair-options">
+            <button onclick="applyHairstyle('images/hair1.png')">Прическа 1</button>
+            <button onclick="applyHairstyle('images/hair2.png')">Прическа 2</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
